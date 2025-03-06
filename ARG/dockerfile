@@ -3,5 +3,5 @@ ENV course="devops" \
     trainer="sivakumar" \
     duration="120hrs"
 ARG USERNAME=Sivakumar
-RUN echo "Hello User: ${username}"
+RUN echo "Hello User: ${USERNAME}"
 CMD ["sleep","100"]
